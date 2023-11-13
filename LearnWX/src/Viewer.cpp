@@ -103,7 +103,7 @@ void Viewer::onLButtonDown(wxMouseEvent& theEvent)
         m_Xmax = thePoint.x;
         m_Ymax = thePoint.y;
 
-        m_View->StartRotation(thePoint.x, thePoint.y);
+        m_View->Rotation(thePoint.x, thePoint.y);
         //
     }
 }
